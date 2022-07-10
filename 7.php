@@ -18,5 +18,7 @@ interface b{
 
 }
 class c implements a,b{
-
+  public function Test(){
+    
+  }
 }
