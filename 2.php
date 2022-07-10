@@ -1,5 +1,5 @@
 <?php
-
+// object & functions declaration
 class TV{
 
     public $volume;

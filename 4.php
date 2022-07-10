@@ -1,5 +1,5 @@
 <?php
-// inheritence 
+// overriding of construct function
 
 class TV{
     public $volume;
@@ -15,8 +15,10 @@ class TV{
         $this->volume=$v;
     }
 }
-class TVWithTimer extends TV {
-    public $timer = true;
+class plazmaTV extends TV {
+    function __construct(){
+
+    }
 }
-$tv= new TVWithTimer('LG',3);
-echo $tv->model;
+$plazma = new plazmaTV;
+echo $plazma->model;
